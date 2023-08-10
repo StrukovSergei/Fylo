@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    max-width: 1440px;
+    font-family: Raleway;
+}
+
+::selection {
+    background-color: $clr1;
+    color: $clr6;
+}
+
+html {
+    line-height: 1.6;
+}
+
+body {
+    font-size: rem(18px);
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+
+section,
+main,
+footer {
+    padding: 5px;
+}
+
+// img {
+//     width: 100%;
+// }
+
+p {}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

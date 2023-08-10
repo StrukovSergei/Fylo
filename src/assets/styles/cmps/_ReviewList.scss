@@ -1,0 +1,85 @@
+.reviews-container {
+    margin-top: 140px;
+    margin-left: 100px;
+    gap: 20px;
+
+    .review-card {
+        width: 360px;
+        height: 200px;
+        box-shadow: 5px 5px 8px 4px rgba(56, 56, 56, 0.1);
+        border-radius: 4px;
+        background-color: #202a3c;
+        z-index: 1;
+        margin-left: 25px;
+
+
+        .review-text {
+            max-width: 310px;
+            color: #ffffff;
+            font-family: "Open Sans - Regular";
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: 0.5px;
+            line-height: 21px;
+            text-align: left;
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+
+        .user-info {
+            display: flex;
+            position: relative;
+            top: -40px;
+            margin-left: 30px;
+
+            .user-img {
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+            }
+
+            .user {
+                position: relative;
+                top: 50px;
+                left: 10px;
+
+                .name {
+
+                    color: #ffffff;
+                    font-family: "Open Sans - Bold";
+                    font-size: 10px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: 0.5px;
+                    line-height: 12px;
+                    text-align: left;
+                    padding-bottom: 4px;
+                }
+
+                .level {
+
+                    color: #ffffff;
+                    font-family: "Open Sans - Regular";
+                    font-size: 8px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: 0.57px;
+                    line-height: 10px;
+                    text-align: left;
+                    font-style: normal;
+                    letter-spacing: 0.65px;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    .quote {
+        width: 59px;
+        height: 59px;
+        position: absolute;
+        top: 2330px;
+        left: 133px
+    }
+}

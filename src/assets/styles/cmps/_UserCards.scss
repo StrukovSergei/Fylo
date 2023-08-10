@@ -1,0 +1,86 @@
+.card-container {
+    display: grid;
+    margin-top: 150px;
+
+    .card-title {
+
+        color: #ffffff;
+        font-family: "Raleway - Bold";
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .card-description {
+        width: 324px;
+        color: #ffffff;
+        font-family: "Open Sans - Regular";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 21px;
+        text-align: center;
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+
+
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.8fr 0.8fr;
+    grid-template-areas: 'first second'
+    'third forth';
+
+    .first-card {
+        margin-left: 160px;
+        grid-area: 'first';
+
+        p{
+            margin-left: 108px;
+
+        }
+
+    }
+
+    .second-card {
+        margin-right: 190px;
+
+        grid-area: 'second';
+
+        
+        p{
+            margin-left: 92px;
+
+        }
+    }
+
+    .third-card {
+        margin-left: 160px;
+
+        grid-area: 'third';
+        margin-top: 80px;
+
+        p{
+            margin-left: 106px;
+
+        }
+
+    }
+
+    .forth-card {
+        margin-right: 190px;
+
+        grid-area: 'forth';
+        margin-top: 80px;
+        p{
+            margin-left: 94px;
+
+        }
+    }
+}

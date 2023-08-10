@@ -1,0 +1,47 @@
+footer {
+    // display: grid;
+    height: 517px;
+    background-color: #0b1524;
+
+
+
+    .logo {}
+
+    div {
+        display: grid;
+
+        grid-template-columns: 1fr 460px 300px 110px 150px 120px 1fr;
+        grid-template-areas: '. text contact links1 links2 icons .';
+
+
+
+        color: #ffffff;
+        font-family: "Open Sans - Regular";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 21px;
+        text-align: center;
+
+        .footer-text {
+            grid-area: text;
+        }
+
+        .footer-contact {
+            grid-area: contact;
+        }
+
+        .footer-links1 {
+            grid-area: links1;
+        }
+
+        .footer-links2 {
+            grid-area: links2;
+        }
+
+        .icons {
+            grid-area: icons;
+        }
+    }
+}

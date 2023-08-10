@@ -1,0 +1,48 @@
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1b2330;
+
+
+
+    .logo {
+        .small-svg {
+            width: 60px;
+            height: 49px;
+        }
+
+        .small-logo {
+            margin-left: 15px;
+            width: 100px;
+            height: 52px;
+        }
+
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .links {
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        color: #ffffff;
+        justify-self: end;
+        display: flex;
+        margin-inline-start: auto;
+        justify-content: space-between;
+        gap: 60px;
+        margin-right: 40px;
+        margin-top: 15px;
+    }
+
+}
+
+a:-webkit-any-link {
+    color: white
+}
